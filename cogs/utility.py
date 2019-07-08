@@ -242,15 +242,15 @@ class Utility(commands.Cog):
         embed.set_author(name="Modmail - About", icon_url=self.bot.user.avatar_url)
         embed.set_thumbnail(url=self.bot.user.avatar_url)
 
-        desc = "This is an open source Discord bot that serves as a means for "
+        desc = "This is a bot currently maintaned by @Retro#7144 to alllow "
         desc += "members to easily communicate with server administrators in "
-        desc += "an organised manner."
+        desc += "an organized manner."
         embed.description = desc
 
         embed.add_field(name="Uptime", value=self.bot.uptime)
         embed.add_field(name="Latency", value=f"{self.bot.latency * 1000:.2f} ms")
         embed.add_field(name="Version", value=f"`{self.bot.version}`")
-        embed.add_field(name="Author", value="[`kyb3r`](https://github.com/kyb3r)")
+        embed.add_field(name="Author", value="[`kyb3r`](https://github.com/RetroSalty)")
 
         changelog = await Changelog.from_url(self.bot)
         latest = changelog.latest_version
@@ -261,10 +261,10 @@ class Utility(commands.Cog):
             footer = "You are up to date with the latest version."
 
         embed.add_field(
-            name="GitHub", value="https://github.com/kyb3r/modmail", inline=False
+            name="GitHub", value="https://github.com/RetroSalty/modmail", inline=False
         )
 
-        embed.add_field(name="Donate", value="[Patreon](https://patreon.com/kyber)")
+        embed.add_field(name="Donate", value="[Patreon](https://patreon.com/eleagueTGC)")
 
         embed.set_footer(text=footer)
         await ctx.send(embed=embed)
