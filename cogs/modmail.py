@@ -60,8 +60,8 @@ class Modmail(commands.Cog):
         embed.add_field(
             name="Thanks for using the bot!",
             value="If you like what you see, consider giving the "
-            "[repo a star](https://github.com/kyb3r/modmail) :star: or if you are "
-            "feeling generous, check us out on [Patreon](https://patreon.com/kyber)!",
+            "[repo a star](https://github.com/RetroSalty/modmail) :star: or if you are "
+            "feeling generous, check us out on [Patreon](https://patreon.com/eLeagueTGC)!",
         )
 
         embed.set_footer(
