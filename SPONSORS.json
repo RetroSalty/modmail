@@ -1,1 +1,19 @@
-
+[{
+  "embed": {
+    "title": "Matcherino",
+    "description": "Matcherino is an esports gaming platform which allows any type of organization or company to empower esports events by using their sponsors as an income source and as a event incentive.",
+    "url": "https://patreon.com/eleagueTGC",
+    "color": 6071775,
+    
+    "author": {
+      "name": "Retro",
+      "url": "https://patreon.com/eleagueTGC",
+    },
+    "fields": [
+      {
+        "name": "🤔",
+        "value": "This command lists the sponsors of this project on [**Patreon**](https://patreon.com/eleagueTGC)"
+      }
+    ]
+  }
+}]
