@@ -1,2 +1,2 @@
-##Plugins are 3rd party addons. The addons listed below are addons made by some of the contributors of the official modmail bot.
-##Me myslef will try to use the addons to eLeagueTGC's advantage
+## Plugins are 3rd party addons. The addons listed below are addons made by some of the contributors of the official modmail bot.
+## Me myslef will try to use the addons to eLeagueTGC's advantage
